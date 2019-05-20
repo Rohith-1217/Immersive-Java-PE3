@@ -4,24 +4,22 @@ import java.util.*;
 
 public class StudentMar {
 
-    public String isComp(int a)
-    {
-        String res="";
-            if ((a>=0) && (a<=100)) {
-                res ="true";
+    public String isComp(int a) {
+        String res = "";
+        if ((a >= 0) && (a <= 100)) {
+            res = "true";
 
-            }
-            if (a>100) {
-                res="Input should not be greater than 100";
-            } if(a<0)
-            {
-                res="Input should not be less than 0";
-            }
+        }
+        if (a > 100) {
+            res = "Input should not be greater than 100";
+        }
+        if (a < 0) {
+            res = "Input should not be less than 0";
+        }
 
-return res;
-
-
+        return res;
     }
+
     public static void main(String args[]) {
         System.out.println("Enter the number of students");
         Scanner sc = new Scanner(System.in);
@@ -32,24 +30,22 @@ return res;
         for (int i = 0; i < numOfStudents; i++) {
             a[i] = sc.nextInt();
         }
+        //we will check for marks are valid or not.If valid checks below conditions and display the result.
         for (int i = 0; i < a.length; i++) {
             if ((a[i] >= 0) && (a[i] <= 100)) {
                 System.out.println("true");
 
             }
-                if (a[i] > 100) {
-                    System.out.println("Input should not be greater than 100");
-                } if(a[i]<0)
-                {
-                    System.out.println("Input should not be less than 0");
-                }
-
+            if (a[i] > 100) {
+                System.out.println("Input should not be greater than 100");
+            }
+            if (a[i] < 0) {
+                System.out.println("Input should not be less than 0");
+            }
 
 
         }
     }
-
-
-    }
+}
 
 

@@ -13,6 +13,7 @@ public class RemoveVowels {
         return instruments;
 
     }
+    //The Given String Need not be null
 
     public String notNul(String a)
     {
@@ -25,6 +26,7 @@ public class RemoveVowels {
         return res;
 
     }
+    //It dont want to contain numbers
     public String notNum(String s)
     {
 

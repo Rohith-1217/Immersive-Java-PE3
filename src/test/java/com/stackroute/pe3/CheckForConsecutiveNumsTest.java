@@ -24,6 +24,7 @@ public class CheckForConsecutiveNumsTest {
     }
 
     @Test
+    //it will calls java class method and checks for consecutive,nonconsecutive and for integer values
     public void testConsecutiveNums() {
         assertEquals("testConsecutiveNums() : ", "98,96,95,94,93 non consecutive numbers", checkForConsecutiveNums.consecutiveNums("98,96,95,94,93"));
         assertEquals("testConsecutiveNums() : ", "54,53,52,51,50,49,48 are consecutive numbers", checkForConsecutiveNums.consecutiveNums("54,53,52,51,50,49,48"));

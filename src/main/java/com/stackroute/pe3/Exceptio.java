@@ -2,6 +2,8 @@ package com.stackroute.pe3;
 
 public class Exceptio {
 
+    //ArithmeticException
+
     public String ArithmeticException(int a, int b) {
         try {
             int c = a / b;  // cannot divide by zero
@@ -11,7 +13,7 @@ public class Exceptio {
         }
         return null;
     }
-
+    //NegativeArraySizeException
     public String NegativeArraySizeException(int a) {
         int arrSize = a;
         try {
@@ -21,7 +23,7 @@ public class Exceptio {
         }
         return null;
     }
-
+    //NullPointerException
     public String NullPointerException(int b) {
 
 
@@ -34,6 +36,7 @@ public class Exceptio {
         return null;
 
     }
+    //ArrayIndexOutofBound
 
     public String ArrayIndexOutOfBound(int a) {
 
@@ -48,6 +51,7 @@ public class Exceptio {
         return null;
 
     }
+    //StringIndexOutOfBoundsException
 
     public String StringIndexOutOfBoundsException (int a) {
         String str = "hello";

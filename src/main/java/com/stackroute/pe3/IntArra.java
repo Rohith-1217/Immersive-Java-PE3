@@ -2,6 +2,7 @@ package com.stackroute.pe3;
 
 public class IntArra {
 
+        //Checks for even or odd
         public String[] isEven(int[] n) {
             String[] s=new String[n.length];
             for(int i=0;i<n.length;i++)
@@ -13,6 +14,7 @@ public class IntArra {
                     s[i]="odd";
             return s;
         }
+        //Deleting Prime Numbers
         public int[] isPrim(int n[])
         {
             int count=0;
@@ -44,7 +46,7 @@ public class IntArra {
             }
             return s;
         }
-
+        //Reverse of a String
         public int[] isRev(int[] n) {
 
             int[] s = new int[n.length];
@@ -57,7 +59,7 @@ public class IntArra {
             return s;
         }
 
-    }
+}
 
 
 
